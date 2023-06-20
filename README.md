@@ -1,17 +1,12 @@
 
-# React-Hook-Form-Mantine
+# SAFWA UI COMPONENTS
 
-React-Hook-Form-Mantine is a library that simplifies the integration of Mantine components with React Hook Form. By adding a "name" prop to Mantine components, the library seamlessly connects them to the corresponding form field.
-
-## Demo
-
-* <https://aranlucas.github.io/react-hook-form-mantine>
-* <https://codesandbox.io/s/react-hook-mantine-krflqj?file=/src/App.tsx>
+safwa-ui-components is a library that simplifies the integration of Mantine components with React Hook Form. By adding a "name" prop to Mantine components, the library seamlessly connects them to the corresponding form field.
 
 ## Getting Started
 
 ```bash
-npm install react-hook-form-mantine
+pnpm install safwa-ui-components
 ```
 
 Requires `react-hook-form` and `@mantine/core` as peer dependencies.
@@ -42,7 +37,7 @@ import {
   Textarea,
   TextInput,
   TransferList
-} from "react-hook-form-mantine";
+} from "safwa-ui-components";
 import { Button, Group, Paper, Container, Stack } from "@mantine/core";
 import { DevTool } from "@hookform/devtools";
 import z from "zod";

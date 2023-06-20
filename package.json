@@ -1,11 +1,11 @@
 {
-  "name": "react-hook-form-mantine",
-  "version": "1.0.0",
+  "name": "safwa-ui-components",
+  "version": "1.0.1",
   "description": "React hook form wrapper for Mantine components",
   "source": "src/index.ts",
   "main": "dist/main.js",
   "module": "dist/module.js",
-  "homepage": "https://aranlucas.github.io/react-hook-form-mantine",
+  "homepage": "https://github.com/SAFWA-DATA-DRIVEN-BIZ-PROCESS/SAFWA-UI-COMPONENT",
   "types": "dist/types.d.ts",
   "scripts": {
     "build-storybook": "storybook build",
@@ -20,7 +20,7 @@
     "test": "vitest",
     "watch": "parcel watch"
   },
-  "author": "Lucas Arango",
+  "author": "Akashaf Khomarudin",
   "license": "MIT",
   "isLibrary": true,
   "peerDependencies": {
@@ -43,7 +43,10 @@
     "@hookform/resolvers": "^3.1.0",
     "@mantine/core": "6.0.10",
     "@mantine/ds": "^6.0.10",
+    "@parcel/core": "^2.9.2",
     "@parcel/packager-ts": "^2.8.3",
+    "@parcel/transformer-js": "^2.9.2",
+    "@parcel/transformer-react-refresh-wrap": "^2.9.2",
     "@parcel/transformer-typescript-types": "^2.8.3",
     "@storybook/addon-actions": "^7.0.11",
     "@storybook/addon-essentials": "^7.0.11",
@@ -88,9 +91,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aranlucas/react-hook-form-mantine.git"
+    "url": "git+https://github.com/SAFWA-DATA-DRIVEN-BIZ-PROCESS/SAFWA-UI-COMPONENT.git"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@parcel/config-default": "^2.9.2"
+  },
+  "bugs": {
+    "url": "https://github.com/SAFWA-DATA-DRIVEN-BIZ-PROCESS/SAFWA-UI-COMPONENT/issues"
+  },
+  "directories": {
+    "example": "examples"
+  }
 }
