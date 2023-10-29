@@ -6,7 +6,7 @@ export default {
   title: "Components/TextInput",
   component: TextInput,
   decorators: [withReactHookForm],
-} satisfies Meta<typeof TextInput>;
+};
 
 type Story = StoryObj<typeof TextInput>;
 
